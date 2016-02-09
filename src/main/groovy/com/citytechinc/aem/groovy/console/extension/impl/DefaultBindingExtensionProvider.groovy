@@ -38,7 +38,8 @@ class DefaultBindingExtensionProvider implements BindingExtensionProvider {
             queryBuilder    : queryBuilder,
             nodeBuilder     : new NodeBuilder(session),
             pageBuilder     : new PageBuilder(session),
-            bundleContext   : bundleContext
+            bundleContext   : bundleContext,
+            groover         : null
         ]
 
         new Binding(map)
